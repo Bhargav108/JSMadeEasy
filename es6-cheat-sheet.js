@@ -1,3 +1,14 @@
+/*
+  ES6 refers to version 6 of the ECMA Script programming language. ECMA Script is the standardized name for JavaScript, 
+  and version 6 is the next version after version 5, which was released in 2011. 
+  It is a major enhancement to the JavaScript language, and adds many more features intended to make 
+  large-scale software development easier.
+
+  ECMAScript, or ES6, was published in June 2015. It was subsequently renamed to ECMAScript 2015.
+  Web browser support for the full language is not yet complete, though major portions are supported. 
+  Major web browsers support some features of ES6.
+*/
+
 // let scope
 let text = "lorem";
 if (true) {
