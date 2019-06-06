@@ -7,7 +7,7 @@
 */
 
 // DON'T
-function userActivities(limit, offset, hasAccess) {
+function getUserActivities(limit, offset, hasAccess) {
   const userLimit = limit || 0;
   const userOffset = offset || 10;
   const userHasAccess = hasAccess || false;
@@ -15,7 +15,7 @@ function userActivities(limit, offset, hasAccess) {
 }
 
 // DO 
-function userActivities({ limit = 0, offset = 10, hasAccess = false}) {
+function getUserActivities({ limit = 0, offset = 10, hasAccess = false}) {
   // Functionality
 }
 
@@ -27,7 +27,7 @@ function userActivities({ limit = 0, offset = 10, hasAccess = false}) {
 */
 
 // DON'T
-function emailClients(clients) {
+function sendEmailClients(clients) {
   clients.forEach(client => {
     const clientRecord = database.lookup(client);
     if (clientRecord.isActive()) {
@@ -38,7 +38,7 @@ function emailClients(clients) {
 
 // DO
 
-function emailActiveClients(clients) {
+function sendEmailToActiveClients(clients) {
   clients.filter(isActiveClient).forEach(email);
 }
 

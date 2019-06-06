@@ -27,11 +27,11 @@ var product = (a,b) => a*b;
 console.log(product(11,11));
 
 // Default parameters
-function userDetail ({name = "John Doe", company="Acme Corporation", place=" Ruritania"}) {
+function getUserDetails ({name = "John Doe", company="Acme Corporation", place=" Ruritania"}) {
   console.log(`${name} is working in ${company} from ${place}`)
 }
-userDetail({name: "Rahul", company: "Secure Infomatics"});
-userDetail({name: "Abhishek"});
+getUserDetails({name: "Rahul", company: "Secure Infomatics"});
+getUserDetails({name: "Abhishek"});
 
 //Destructuring
 // DON'T

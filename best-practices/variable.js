@@ -50,7 +50,7 @@ const Car = {
   carColor: "Blue"
 };
 
-function paintCar(car) {
+function applyPaint(car) {
   car.carColor = "Red";
 }
 
@@ -62,6 +62,6 @@ const car = {
   color: "Blue"
 };
 
-function paintCar(car) {
+function applyPaint(car) {
   car.color = "Red";
 }
