@@ -7,7 +7,7 @@
     "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Dalai Bhargav Jnanadev",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.11"
