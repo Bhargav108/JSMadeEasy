@@ -10,7 +10,7 @@
   "author": "Dalai Bhargav Jnanadev",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "eslint": "^5.16.0"
